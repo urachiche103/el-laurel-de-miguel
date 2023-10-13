@@ -1,0 +1,17 @@
+body {
+    background-image: url(../assets/background.jpg);
+    background-color: black;
+    opacity: 1;
+}
+
+.box {
+    background-color: white;
+}
+
+.links {
+    background-color: white;
+}
+
+.footer {
+    background-color: white;
+}
