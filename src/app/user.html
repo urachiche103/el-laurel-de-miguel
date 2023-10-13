@@ -8,14 +8,14 @@
 </head>
 
 <body>
-    <img class="header" src="./assets/header.png" alt="header">
+    <img class="header" src="../../assets/header.png" alt="header">
 
     <header>
         <nav class="links">
             <a href="../../index.html">Inicio</a>
-            <a href="../app/comentarios.html">Comentarios</a>
-            <a href="../app/galeria.html">Galería</a>
-            <a href="../app/contacto.html">Contacto</a>
+            <a href="../../src/app/comentarios.html">Comentarios</a>
+            <a href="../../src/app/galeria.html">Galería</a>
+            <a href="../../src/app/contacto.html">Contacto</a>
         </nav>
     </header>
 
@@ -27,14 +27,28 @@
             <img src="../../assets/laurel-3-u3388.png" alt="img-3">
         </div>
 
+        <div class="register-form">
+            <form method="post" action="/register">
+                <h3>Registro</h3>
+                    <div>
+                        
+                    <label for="nombre">Usuario:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre de usuario" minlength="5" maxlength="40" required>
+                    <p>Entre 5-40 caracteres</p>
+                    </div>
+                <div>
+                    <label for="pass">Contraseña:</label>
+                    <input type="password" name="pass" id="pass" placeholder="Contraseña" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                    <p>Mínimo 8 caracteres; incluyendo al menos un número, minúsculas, mayúsculas y caracteres especiales como (#, ? o !)</p>
+                </div>
+                <p>Complete la información para su registro</p>
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+
         <div>
             <article class="box">
-                <h1>BIENVENIDOS A "EL LAUREL DE MIGUEL"</h1>
-                <p>El Laurel de Miguel ofrece a sus clientes una manera nueva de degustar las mejores y mas elaboradas tapas de toda la zona, en un ambiente y con una calidad que nos hace idóneos para pasar tardes y noches junto a sus amigos y conocidos.</p>
-                <h3>Disfrute nuestros menus de degustacion, tapas y gourmet.</h3>
-                <p>Algo nuevo, en sabor, gusto, tacto, color y diseño, así son todas nuestras tapas, aprende a saborear la comida a través de tapas tan suculentas como nuestras piruletas de langostino envueltas en beicon con una fina lamina de calabacín, tapas que llenarán tanto tu mente como sus sentidos.
-                La gerencia de El Laurel de Miguel, corre a cargo de Miguel Rosado, que cuenta en su haber mas de 15 años de experiencia en la hostelería, con trabajos tales como: Jefe de bar en la importante cadena Marina Hotels, Maitre en restaurantes 5J, diplomado en experto en maitre concedido por la Escuela de Hostelería de Sevilla San Valero.
-                En nuestro establecimiento disponemos de platos y bebidas para celíacos con los conocimientos necesarios para poder servir con seguridad sus productos.</p>
+                <h1>REGISTRO</h1>
             </article>
         </div>
 

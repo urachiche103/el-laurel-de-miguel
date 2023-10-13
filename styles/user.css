@@ -4,6 +4,11 @@ body {
     opacity: 1;
 }
 
+.header {
+    display: flex;
+    align-items: flex-end;
+}
+
 .box {
     background-color: white;
 }
@@ -13,5 +18,17 @@ body {
 }
 
 .footer {
+    background-color: white;
+}
+
+/* input:valid {
+    background: lightgreen;
+}
+
+input:invalid {
+    background: red;
+} */
+
+.register-form {
     background-color: white;
 }
