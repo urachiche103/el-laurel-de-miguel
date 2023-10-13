@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <img src="/html-css/nuevo/el_laurel_de_miguel/assets/header.png" alt="">
+    <img src="../../assets/background.jpg" alt="">
 </body>
 
     <header>
@@ -21,16 +21,30 @@
 
     <main>
         <div>
-            <img src="/html-css/nuevo/el_laurel_de_miguel/assets/laurel-1.jpeg" alt="">
-            <img src="/html-css/nuevo/el_laurel_de_miguel/assets/laurel-2.jpeg" alt="">
+            <img src="../../assets/laurel-1.jpeg" alt="">
+            <img src="../../assets/laurel-2-u3379.png" alt="">
         </div>
     
         <div>
             <h3>Comentarios y Sugerencia</h3>
             <p>Tienes sugerencias, quejas o simplemente quieres aportar un comentario, deja constancia de ello, aqui no sólo veras los comentarios de otras personas sino que para nosotros es una manera de mejorar nuestros servicios, platos y ambiente.</p>
             <p>8 comentarios</p>
-            <!-- crear tabla para ingresar comentario -->
-            <!-- agregar sidebar -->
+
+            <form action="/next-page" method="post">
+                <fieldset>
+                    <legend>Datos de identificación</legend>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name">
+                    <label for="last_name">Apellidos</label>
+                    <input type="text" name="last_name" id="last_name">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comentario</legend>
+                    <textarea id="comments"></textarea>
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
         </div>
     </main>
 

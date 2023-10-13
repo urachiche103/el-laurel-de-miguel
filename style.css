@@ -1,9 +1,4 @@
-button {
-    background-color: grey;
-    color: black;
+body {
+    padding: 20px;
 }
 
-button.active {
-    background-color: black;
-    color: white;
-}
